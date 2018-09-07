@@ -1,0 +1,25 @@
+! Fonts
+
+URxvt.allow_bold:           true
+
+!scientifica
+URxvt*font:           xft:scientifica:pixelsize=10
+URxvt.font:           xft:scientifica:pixelsize=10
+
+! Fix font space
+URxvt*letterSpace:1
+
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+URxvt*scrollTtyOutput:   false
+URxvt*scrollWithBuffer:  true
+URxvt*scrollTtyKeypress: true
+
+
+! Cursor
+URxvt.cursorBlink:          true
+!URxvt.cursorColor:          #C84F1F
+Urxvt.cursorColor: #C8921F
+URxvt.cursorUnderline: false
